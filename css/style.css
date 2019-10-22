@@ -44,6 +44,7 @@ nav a {
   .topnav.responsive a {display: inherit;}
   .topnav.responsive a.trigram {visibility: hidden; position: absolute; right: 3%; top: 2%;}
   .trigram {display: inherit;}
+  .topnav.responsive a.trigram::after {content:'\000D7'; visibility: visible; text-indent: -.5em;}
 }
 .slideshow {
   background-color: #CCC;
@@ -54,6 +55,7 @@ nav a {
   background-position: center center;
   background-size: cover;
   padding-bottom: 56%;
+  border-radius: 4px 4px 0 0;
 }
 .grid-container {
   display: grid;
