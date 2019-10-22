@@ -23,9 +23,27 @@ nav {
   background-color: #333;
   color: #DDD;
   padding: 1em;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  nav {flex-direction: row;}
 }
 nav a {
   color: #DDD;
+  text-decoration: none;
+}
+.trigram {
+  font-size: 1.75em;
+}
+@media screen and (max-width: 767px) {
+  .topnav a {display: none;}
+  .topnav a.trigram {display: inherit; align-self: flex-end;}
+}
+@media screen and (max-width: 767px) {
+  .topnav.responsive {align-items: center;}
+  .topnav.responsive a {display: inherit;}
+  .topnav.responsive a.trigram {visibility: hidden; position: absolute; right: 3%; top: 2%;}
+  .trigram {display: inherit;}
 }
 .slideshow {
   background-color: #CCC;
