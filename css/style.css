@@ -98,9 +98,7 @@ nav a {
 }
 .dot-wrap {text-align: center;}
 .dot {
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
+  width: 20%;
   background: #BBB;
   display: inline-block;
 }
