@@ -54,6 +54,9 @@ nav a {
   padding-bottom: 56%;
   border-radius: 4px 4px 0 0;
 }
+.one .thumb {
+  background-image: url("https://picsum.photos/1280/448/?image=12");
+}
 .grid-container {
   display: grid;
   grid-gap: 1em;
